@@ -2,5 +2,5 @@
 
 public class CreateResponse
 {
-  public Guid Id { get; set; }
+  public int Id { get; set; }
 }

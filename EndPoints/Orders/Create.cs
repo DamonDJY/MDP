@@ -1,6 +1,7 @@
 ﻿using Ardalis.Result;
 using FastEndpoints;
 using MDP.Application.Commands;
+using MDP.Infrastructure.Utility;
 using MediatR;
 
 namespace MDP.EndPoints.Orders;
@@ -14,6 +15,7 @@ public class Create(IMediator mediator) : Endpoint<CreateRequest, CreateResponse
   }
   public override async Task HandleAsync(CreateRequest request, CancellationToken cancellationToken)
   {
+    System.Console.WriteLine("Create order:", JsonHelper.Serialize(request));
     var command = new CreateOrderCommand
     {
       CustomerName = request.CustomerName,

@@ -3,7 +3,7 @@ using MDP.Domain.Entities;
 using MediatR;
 
 namespace MDP.Application.Commands;
-public class CreateOrderCommand : Ardalis.SharedKernel.ICommand<Result<Guid>>
+public class CreateOrderCommand : Ardalis.SharedKernel.ICommand<Result<int>>
 {
   public string CustomerName { get; set; }
   public DateTime OrderDate { get; set; }

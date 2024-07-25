@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MDP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ee512144774ab91a900596e08c2c2c6c56e386a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280b0db7c7deccd0a3c953b90c22d144f22932f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MDP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MDP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -177,3 +177,17 @@
 /Users/damon/code/MDP/obj/Debug/net8.0/MDP.pdb
 /Users/damon/code/MDP/obj/Debug/net8.0/MDP.genruntimeconfig.cache
 /Users/damon/code/MDP/obj/Debug/net8.0/ref/MDP.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/FastEndpoints.Swagger.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/Namotion.Reflection.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NJsonSchema.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NJsonSchema.Annotations.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NJsonSchema.NewtonsoftJson.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NJsonSchema.Yaml.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.Annotations.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.AspNetCore.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.Core.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.Core.Yaml.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.Generation.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/NSwag.Generation.AspNetCore.dll
+/Users/damon/code/MDP/bin/Debug/net8.0/YamlDotNet.dll

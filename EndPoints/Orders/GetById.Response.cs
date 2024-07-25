@@ -4,7 +4,7 @@ namespace MDP.EndPoints.Orders;
 
 public class Response
 {
-  public Guid Id { get; set; }
+  public int Id { get; set; }
   public string CustomerName { get; set; }
   public Address? ShoppingAddress { get; set; }
   public string Phone { get; set; }

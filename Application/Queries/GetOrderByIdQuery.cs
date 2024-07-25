@@ -5,6 +5,6 @@ using MediatR;
 
 namespace MDP.Application.Queries;
 
-public record GetOrderByIdQuery(Guid Id) : IQuery<Result<Order>>
+public record GetOrderByIdQuery(int Id) : IQuery<Result<Order>>
 {
 }

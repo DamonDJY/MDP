@@ -6,7 +6,7 @@ using MediatR;
 
 namespace MDP.Application.Commands;
 
-public class CreateorderCommandHandler : ICommandHandler<CreateOrderCommand, Result<Guid>>
+public class CreateorderCommandHandler : ICommandHandler<CreateOrderCommand, Result<int>>
 {
   private readonly IOrderRepository _orderRepository;
 
@@ -15,11 +15,10 @@ public class CreateorderCommandHandler : ICommandHandler<CreateOrderCommand, Res
     _orderRepository = orderRepository;
   }
 
-  public async Task<Result<Guid>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
+  public async Task<Result<int>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
   {
     var order = new Order
     {
-      Id = Guid.NewGuid(),
       CustomerName = request.CustomerName,
       OrderDate = request.OrderDate,
       IsCancelled = false,

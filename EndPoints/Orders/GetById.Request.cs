@@ -5,9 +5,10 @@ namespace MDP.EndPoints.Orders;
 
 public class Request
 {
-  public const string Route = "/orders/{Id}";
+  public const string Route = "/orders/{Id:int}";
 
-  public static string BindRoute(Guid id) => Route.Replace("{Id}", id.ToString());
+  public static string BindRoute(int id) => Route.Replace("{Id:int}", id.ToString());
 
-  public Guid Id { get; set; }
+  [FromRoute(Name = "Id")]
+  public int Id { get; set; }
 }

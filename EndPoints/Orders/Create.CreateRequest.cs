@@ -1,10 +1,12 @@
-﻿using System.Windows.Input;
+﻿using System.Text.Json.Serialization;
+using System.Windows.Input;
 using MDP.Domain.Entities;
 
 namespace MDP.EndPoints.Orders;
 
 public class CreateRequest
 {
+
   public string CustomerName { get; set; }
   public DateTime OrderDate { get; set; }
 

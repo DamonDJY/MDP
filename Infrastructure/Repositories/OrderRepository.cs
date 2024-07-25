@@ -15,7 +15,7 @@ public class OrderRepository : IOrderRepository
     _context = context;
   }
 
-  public async Task<Order> GetByIdAsync(Guid id)
+  public async Task<Order> GetByIdAsync(int id)
   {
     return await _context.Orders.Include(x => x.Items).FirstOrDefaultAsync(x => x.Id == id) ?? throw new Exception("Order not found");
   }
@@ -37,7 +37,7 @@ public class OrderRepository : IOrderRepository
     await _context.SaveChangesAsync();
   }
 
-  public async Task DeleteAsync(Guid id)
+  public async Task DeleteAsync(int id)
   {
     var order = await _context.Orders.FindAsync(id);
     if (order != null)
